@@ -1,1 +1,0 @@
-# normallian.github.io
