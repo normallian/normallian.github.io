@@ -180,6 +180,9 @@ li.skill_img:hover p {
   flex-direction: column;
   gap: 4px;
 }
+.experience {
+  animation: fadein 3s;
+
 .skillImg {
   gap: 10px;
   display: flex;
