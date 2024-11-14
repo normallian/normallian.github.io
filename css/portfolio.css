@@ -1,3 +1,12 @@
+
+@keyframes fadein{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+
+
+
 /* Basic style */
 svg {
   display: none;
@@ -102,6 +111,12 @@ li.skill_img:hover p {
 }
 
 
+.skillicon{
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+
  
 .Abt_exp{
   border-radius: 20px;
@@ -128,8 +143,8 @@ li.skill_img:hover p {
  
 }
 .profileText {
-  margin-left: 5%;
-  margin-bottom: 17%;
+ margin-left: 5%;
+  margin-bottom:0%;
   gap: 0.5em;
   left: 4.8%;
   line-height: 3.3em;
@@ -137,6 +152,7 @@ li.skill_img:hover p {
   display: flex;
   flex-direction: column;
   color: #fff;
+  animation: fadein 2s;
 }
 
 .profileText p {
